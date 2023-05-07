@@ -4,7 +4,7 @@ import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Statistics } from './Statistics/Statistics ';
 import { Notification } from './Notification/Notification';
 
-export class Feedback extends Component {
+export class App extends Component {
   state = {
     Good: 0,
     Neutral: 0,
