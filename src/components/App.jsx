@@ -32,7 +32,11 @@ export class App extends Component {
     };
 
     return (
-      <div>
+      <div
+        style={{
+          marginLeft: 50,
+        }}
+      >
         <Section title={'Please leave feedback'}>
           <FeedbackOptions
             options={['Good', 'Neutral', 'Bad']}
